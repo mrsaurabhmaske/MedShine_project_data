@@ -2,43 +2,265 @@
     "patients":[
   {
     "patientId": 1,
-    "name": "Amit Deshpande",
-    "email": "amit.deshpande@example.com",
-    "age": 35,
+    "name": "Amit Deshmukh",
+    "email": "amit.deshmukh@medshine.com",
+    "age": 32,
     "gender": "Male",
-    "phone": "91-9876543211",
-    "address": { "city": "Pune", "district": "Pune" },
-    "doctorId": 1
+    "phone": "123-456-7890",
+    "address": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "doctorId": 101,
+    "medicalHistory": ["Allergies", "High Blood Pressure", "Diabetes"],
+    "bloodType": "A+",
+    "nextAppointmentDate": "2023-07-25",
+    "healthConditions": ["Asthma", "Hypertension"]
   },
   {
     "patientId": 2,
-    "name": "Priya Joshi",
-    "email": "priya.joshi@example.com",
+    "name": "Priya Sharma",
+    "email": "priya.sharma@medshine.com",
     "age": 28,
     "gender": "Female",
-    "phone": "91-8765432101",
-    "address": { "city": "Mumbai", "district": "Mumbai" },
-    "doctorId": 2
+    "phone": "987-654-3210",
+    "address": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "doctorId": 102,
+    "medicalHistory": ["Migraines", "Anemia"],
+    "bloodType": "B+",
+    "nextAppointmentDate": "2023-07-28",
+    "healthConditions": ["Migraines", "Anemia"]
+  },
+  {
+    "patientId": 3,
+    "name": "Rahul Patel",
+    "email": "rahul.patel@medshine.com",
+    "age": 45,
+    "gender": "Male",
+    "phone": "876-543-2109",
+    "address": {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "country": "India"
+    },
+    "doctorId": 103,
+    "medicalHistory": ["Type 2 Diabetes", "High Cholesterol", "Obesity"],
+    "bloodType": "AB+",
+    "nextAppointmentDate": "2023-07-30",
+    "healthConditions": ["Type 2 Diabetes", "High Cholesterol", "Obesity"]
+  },
+  {
+    "patientId": 4,
+    "name": "Anjali Singh",
+    "email": "anjali.singh@medshine.com",
+    "age": 35,
+    "gender": "Female",
+    "phone": "765-432-1098",
+    "address": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "country": "India"
+    },
+    "doctorId": 104,
+    "medicalHistory": ["PCOS", "Depression", "Anxiety"],
+    "bloodType": "O+",
+    "nextAppointmentDate": "2023-08-02",
+    "healthConditions": ["PCOS", "Depression", "Anxiety"]
+  },
+  {
+    "patientId": 5,
+    "name": "Rajesh Kumar",
+    "email": "rajesh.kumar@medshine.com",
+    "age": 50,
+    "gender": "Male",
+    "phone": "654-321-0987",
+    "address": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "doctorId": 105,
+    "medicalHistory": ["Heart Disease", "High Blood Pressure", "Smoking"],
+    "bloodType": "B-",
+    "nextAppointmentDate": "2023-08-05",
+    "healthConditions": ["Heart Disease", "High Blood Pressure", "Smoking"]
+  },
+  {
+    "patientId": 6,
+    "name": "Swati Sharma",
+    "email": "swati.sharma@medshine.com",
+    "age": 42,
+    "gender": "Female",
+    "phone": "789-012-3456",
+    "address": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "country": "India"
+    },
+    "doctorId": 104,
+    "medicalHistory": ["Hypothyroidism", "Anxiety", "High Blood Pressure"],
+    "bloodType": "O-",
+    "nextAppointmentDate": "2023-08-04",
+    "healthConditions": ["Hypothyroidism", "Anxiety", "High Blood Pressure"]
+  },
+  {
+    "patientId": 7,
+    "name": "Aakash Singh",
+    "email": "aakash.singh@medshine.com",
+    "age": 55,
+    "gender": "Male",
+    "phone": "901-234-5678",
+    "address": {
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "country": "India"
+    },
+    "doctorId": 105,
+    "medicalHistory": ["Heart Disease", "Diabetes", "High Cholesterol"],
+    "bloodType": "B+",
+    "nextAppointmentDate": "2023-08-06",
+    "healthConditions": ["Heart Disease", "Diabetes", "High Cholesterol"]
+  },
+  {
+    "patientId": 8,
+    "name": "Mihir Patel",
+    "email": "mihir.patel@medshine.com",
+    "age": 30,
+    "gender": "Male",
+    "phone": "123-456-7890",
+    "address": {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "country": "India"
+    },
+    "doctorId": 106,
+    "medicalHistory": ["Migraines", "Insomnia"],
+    "bloodType": "A-",
+    "nextAppointmentDate": "2023-08-08",
+    "healthConditions": ["Migraines", "Insomnia"]
+  },
+  {
+    "patientId": 9,
+    "name": "Kirti Gupta",
+    "email": "kirti.gupta@medshine.com",
+    "age": 38,
+    "gender": "Female",
+    "phone": "765-432-1098",
+    "address": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "doctorId": 106,
+    "medicalHistory": ["Asthma", "Allergies"],
+    "bloodType": "AB+",
+    "nextAppointmentDate": "2023-08-10",
+    "healthConditions": ["Asthma", "Allergies"]
+  },
+  {
+    "patientId": 10,
+    "name": "Vivek Sharma",
+    "email": "vivek.sharma@medshine.com",
+    "age": 25,
+    "gender": "Male",
+    "phone": "876-543-2109",
+    "address": {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "country": "India"
+    },
+    "doctorId": 107,
+    "medicalHistory": ["Gastroenteritis", "Food Poisoning"],
+    "bloodType": "B-",
+    "nextAppointmentDate": "2023-08-12",
+    "healthConditions": ["Gastroenteritis", "Food Poisoning"]
   }
 ],
 
 
 "doctors" : [
   {
-    "doctorId": 1,
+    "doctorId": 101,
     "name": "Dr. Rajesh Deshmukh",
-    "speciality": "Cardiologist",
-    "email": "rajesh.deshmukh@example.com",
-    "phone": "91-9876543210",
-    "address": { "city": "Pune", "district": "Pune" }
+    "email": "rajesh.deshmukh@medshine.com",
+    "phone": "987-654-3210",
+    "address": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "services": ["Cardiology", "Hypertension Management"],
+    "availableSlots": ["2023-07-25 10:00 AM", "2023-07-27 11:30 AM"]
   },
   {
-    "doctorId": 2,
+    "doctorId": 102,
     "name": "Dr. Neha Joshi",
-    "speciality": "Pediatrician",
-    "email": "neha.joshi@example.com",
-    "phone": "91-8765432109",
-    "address": { "city": "Mumbai", "district": "Mumbai" }
+    "email": "neha.joshi@medshine.com",
+    "phone": "876-543-2109",
+    "address": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "services": ["Pediatrics", "Allergy Management"],
+    "availableSlots": ["2023-07-28 3:00 PM", "2023-07-30 2:30 PM"]
+  },
+  {
+    "doctorId": 103,
+    "name": "Dr. Ankit Patel",
+    "email": "ankit.patel@medshine.com",
+    "phone": "765-432-1098",
+    "address": {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "country": "India"
+    },
+    "services": ["Diabetes Management", "Obesity Counseling"],
+    "availableSlots": ["2023-07-30 9:30 AM", "2023-08-02 10:30 AM"]
+  },
+  {
+    "doctorId": 104,
+    "name": "Dr. Anjali Singh",
+    "email": "anjali.singh@medshine.com",
+    "phone": "654-321-0987",
+    "address": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "country": "India"
+    },
+    "services": ["Gynecology", "Mental Health Counseling"],
+    "availableSlots": ["2023-08-02 4:00 PM", "2023-08-05 3:30 PM"]
+  },
+  {
+    "doctorId": 105,
+    "name": "Dr. Sunil Kumar",
+    "email": "sunil.kumar@medshine.com",
+    "phone": "789-012-3456",
+    "address": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "services": ["Orthopedics", "Sports Medicine"],
+    "availableSlots": ["2023-08-06 11:00 AM", "2023-08-09 10:30 AM"]
+  },
+  {
+    "doctorId": 106,
+    "name": "Dr. Priya Sharma",
+    "email": "priya.sharma@medshine.com",
+    "phone": "901-234-5678",
+    "address": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "services": ["Dermatology", "Acne Treatment"],
+    "availableSlots": ["2023-08-10 2:00 PM", "2023-08-12 1:30 PM"]
   }
 ],
 
