@@ -184,7 +184,7 @@
 
 
 "doctors" : [
-  {
+      {
     "doctorId": 101,
     "name": "Dr. Rajesh Deshmukh",
     "email": "rajesh.deshmukh@medshine.com",
@@ -194,7 +194,7 @@
       "state": "Maharashtra",
       "country": "India"
     },
-    "services": ["Cardiology", "Hypertension Management"],
+    "serviceIds": [4, 10],
     "availableSlots": ["2023-07-25 10:00 AM", "2023-07-27 11:30 AM"]
   },
   {
@@ -207,78 +207,541 @@
       "state": "Maharashtra",
       "country": "India"
     },
-    "services": ["Pediatrics", "Allergy Management"],
+    "serviceIds": [5, 2],
     "availableSlots": ["2023-07-28 3:00 PM", "2023-07-30 2:30 PM"]
   },
   {
     "doctorId": 103,
-    "name": "Dr. Ankit Patel",
-    "email": "ankit.patel@medshine.com",
+    "name": "Dr. Aarti Singh",
+    "email": "aarti.singh@medshine.com",
     "phone": "765-432-1098",
-    "address": {
-      "city": "Ahmedabad",
-      "state": "Gujarat",
-      "country": "India"
-    },
-    "services": ["Diabetes Management", "Obesity Counseling"],
-    "availableSlots": ["2023-07-30 9:30 AM", "2023-08-02 10:30 AM"]
-  },
-  {
-    "doctorId": 104,
-    "name": "Dr. Anjali Singh",
-    "email": "anjali.singh@medshine.com",
-    "phone": "654-321-0987",
     "address": {
       "city": "Delhi",
       "state": "Delhi",
       "country": "India"
     },
-    "services": ["Gynecology", "Mental Health Counseling"],
-    "availableSlots": ["2023-08-02 4:00 PM", "2023-08-05 3:30 PM"]
+    "serviceIds": [6, 3],
+    "availableSlots": ["2023-07-30 9:00 AM", "2023-07-31 11:00 AM"]
   },
   {
-    "doctorId": 105,
-    "name": "Dr. Sunil Kumar",
-    "email": "sunil.kumar@medshine.com",
-    "phone": "789-012-3456",
+    "doctorId": 104,
+    "name": "Dr. Karan Mehta",
+    "email": "karan.mehta@medshine.com",
+    "phone": "987-123-4567",
     "address": {
       "city": "Bengaluru",
       "state": "Karnataka",
       "country": "India"
     },
-    "services": ["Orthopedics", "Sports Medicine"],
-    "availableSlots": ["2023-08-06 11:00 AM", "2023-08-09 10:30 AM"]
+    "serviceIds": [7, 14],
+    "availableSlots": ["2023-08-01 1:00 PM", "2023-08-04 10:30 AM"]
+  },
+  {
+    "doctorId": 105,
+    "name": "Dr. Sneha Kapoor",
+    "email": "sneha.kapoor@medshine.com",
+    "phone": "765-876-5432",
+    "address": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "country": "India"
+    },
+    "serviceIds": [8, 15],
+    "availableSlots": ["2023-08-02 2:30 PM", "2023-08-03 4:00 PM"]
   },
   {
     "doctorId": 106,
-    "name": "Dr. Priya Sharma",
-    "email": "priya.sharma@medshine.com",
-    "phone": "901-234-5678",
+    "name": "Dr. Manish Sharma",
+    "email": "manish.sharma@medshine.com",
+    "phone": "876-654-4321",
+    "address": {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "country": "India"
+    },
+    "serviceIds": [9, 1],
+    "availableSlots": ["2023-08-05 11:30 AM", "2023-08-07 3:00 PM"]
+  },
+  {
+    "doctorId": 107,
+    "name": "Dr. Deepika Gupta",
+    "email": "deepika.gupta@medshine.com",
+    "phone": "876-543-2109",
     "address": {
       "city": "Mumbai",
       "state": "Maharashtra",
       "country": "India"
     },
-    "services": ["Dermatology", "Acne Treatment"],
-    "availableSlots": ["2023-08-10 2:00 PM", "2023-08-12 1:30 PM"]
+    "serviceIds": [6, 11],
+    "availableSlots": ["2023-08-09 9:30 AM", "2023-08-11 10:30 AM"]
+  },
+  {
+    "doctorId": 108,
+    "name": "Dr. Rohan Verma",
+    "email": "rohan.verma@medshine.com",
+    "phone": "987-765-4321",
+    "address": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "country": "India"
+    },
+    "serviceIds": [12, 17],
+    "availableSlots": ["2023-08-12 2:00 PM", "2023-08-15 4:30 PM"]
+  },
+  {
+    "doctorId": 109,
+    "name": "Dr. Shweta Singhania",
+    "email": "shweta.singhania@medshine.com",
+    "phone": "876-210-9876",
+    "address": {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "country": "India"
+    },
+    "serviceIds": [13, 19],
+    "availableSlots": ["2023-08-16 11:00 AM", "2023-08-18 3:30 PM"]
+  },
+  {
+    "doctorId": 110,
+    "name": "Dr. Siddharth Mehra",
+    "email": "siddharth.mehra@medshine.com",
+    "phone": "765-432-1098",
+    "address": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "serviceIds": [16, 3],
+    "availableSlots": ["2023-08-19 12:30 PM", "2023-08-21 2:30 PM"]
+  },
+  {
+    "doctorId": 111,
+    "name": "Dr. Ananya Patel",
+    "email": "ananya.patel@medshine.com",
+    "phone": "987-876-5432",
+    "address": {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "country": "India"
+    },
+    "serviceIds": [18, 7],
+    "availableSlots": ["2023-08-22 11:00 AM", "2023-08-24 4:00 PM"]
+  },
+  {
+    "doctorId": 112,
+    "name": "Dr. Sameer Kapoor",
+    "email": "sameer.kapoor@medshine.com",
+    "phone": "765-654-3210",
+    "address": {
+      "city": "Chandigarh",
+      "state": "Punjab",
+      "country": "India"
+    },
+    "serviceIds": [14, 5],
+    "availableSlots": ["2023-08-25 1:30 PM", "2023-08-28 3:00 PM"]
+  },
+  {
+    "doctorId": 113,
+    "name": "Dr. Aryan Khanna",
+    "email": "aryan.khanna@medshine.com",
+    "phone": "876-543-2109",
+    "address": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "serviceIds": [10, 20],
+    "availableSlots": ["2023-09-01 10:00 AM", "2023-09-03 11:00 AM"]
+  },
+  {
+    "doctorId": 114,
+    "name": "Dr. Ishita Sharma",
+    "email": "ishita.sharma@medshine.com",
+    "phone": "987-765-4321",
+    "address": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "country": "India"
+    },
+    "serviceIds": [9, 8],
+    "availableSlots": ["2023-09-04 3:00 PM", "2023-09-06 4:30 PM"]
+  },
+  {
+    "doctorId": 115,
+    "name": "Dr. Vikram Singh",
+    "email": "vikram.singh@medshine.com",
+    "phone": "876-210-9876",
+    "address": {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "country": "India"
+    },
+    "serviceIds": [4, 12],
+    "availableSlots": ["2023-09-07 11:00 AM", "2023-09-09 2:30 PM"]
+  },
+  {
+    "doctorId": 116,
+    "name": "Dr. Natasha Reddy",
+    "email": "natasha.reddy@medshine.com",
+    "phone": "765-432-1098",
+    "address": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "serviceIds": [11, 15],
+    "availableSlots": ["2023-09-10 12:30 PM", "2023-09-12 2:30 PM"]
+  },
+  {
+    "doctorId": 117,
+    "name": "Dr. Sameer Kapoor",
+    "email": "sameer.kapoor@medshine.com",
+    "phone": "987-876-5432",
+    "address": {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "country": "India"
+    },
+    "serviceIds": [13, 6],
+    "availableSlots": ["2023-09-13 11:00 AM", "2023-09-15 4:00 PM"]
+  },
+  {
+    "doctorId": 118,
+    "name": "Dr. Priya Sharma",
+    "email": "priya.sharma@medshine.com",
+    "phone": "765-654-3210",
+    "address": {
+      "city": "Chandigarh",
+      "state": "Punjab",
+      "country": "India"
+    },
+    "serviceIds": [17, 3],
+    "availableSlots": ["2023-09-16 1:30 PM", "2023-09-18 3:00 PM"]
+  },
+  {
+    "doctorId": 119,
+    "name": "Dr. Aditi Verma",
+    "email": "aditi.verma@medshine.com",
+    "phone": "876-543-2109",
+    "address": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "serviceIds": [16, 5],
+    "availableSlots": ["2023-09-21 9:30 AM", "2023-09-23 10:30 AM"]
+  },
+  {
+    "doctorId": 120,
+    "name": "Dr. Alok Kumar",
+    "email": "alok.kumar@medshine.com",
+    "phone": "987-765-4321",
+    "address": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "country": "India"
+    },
+    "serviceIds": [18, 1],
+    "availableSlots": ["2023-09-24 2:00 PM", "2023-09-27 4:30 PM"]
+  },
+  {
+    "doctorId": 121,
+    "name": "Dr. Neha Reddy",
+    "email": "neha.reddy@medshine.com",
+    "phone": "876-210-9876",
+    "address": {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "country": "India"
+    },
+    "serviceIds": [19, 7],
+    "availableSlots": ["2023-09-28 11:00 AM", "2023-09-30 3:30 PM"]
+  },
+  {
+    "doctorId": 122,
+    "name": "Dr. Siddharth Verma",
+    "email": "siddharth.verma@medshine.com",
+    "phone": "765-432-1098",
+    "address": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "serviceIds": [2, 20],
+    "availableSlots": ["2023-10-01 12:30 PM", "2023-10-03 2:30 PM"]
+  },
+  {
+    "doctorId": 123,
+    "name": "Dr. Meera Singh",
+    "email": "meera.singh@medshine.com",
+    "phone": "987-876-5432",
+    "address": {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "country": "India"
+    },
+    "serviceIds": [8, 14],
+    "availableSlots": ["2023-10-04 11:00 AM", "2023-10-06 4:00 PM"]
+  },
+  {
+    "doctorId": 124,
+    "name": "Dr. Rajat Kapoor",
+    "email": "rajat.kapoor@medshine.com",
+    "phone": "765-654-3210",
+    "address": {
+      "city": "Chandigarh",
+      "state": "Punjab",
+      "country": "India"
+    },
+    "serviceIds": [3, 13],
+    "availableSlots": ["2023-10-07 1:30 PM", "2023-10-10 3:00 PM"]
+  },
+  {
+    "doctorId": 125,
+    "name": "Dr. Ritu Sharma",
+    "email": "ritu.sharma@medshine.com",
+    "phone": "876-543-2109",
+    "address": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "serviceIds": [5, 10],
+    "availableSlots": ["2023-10-11 10:00 AM", "2023-10-13 11:00 AM"]
+  },
+  {
+    "doctorId": 126,
+    "name": "Dr. Rohini Desai",
+    "email": "rohini.desai@medshine.com",
+    "phone": "876-543-2109",
+    "address": {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "serviceIds": [5, 12],
+    "availableSlots": ["2023-10-21 9:30 AM", "2023-10-23 10:30 AM"]
+  },
+  {
+    "doctorId": 127,
+    "name": "Dr. Anand Khurana",
+    "email": "anand.khurana@medshine.com",
+    "phone": "987-765-4321",
+    "address": {
+      "city": "Wardha",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "serviceIds": [18, 10],
+    "availableSlots": ["2023-10-24 2:00 PM", "2023-10-27 4:30 PM"]
+  },
+  {
+    "doctorId": 128,
+    "name": "Dr. Tanvi Shah",
+    "email": "tanvi.shah@medshine.com",
+    "phone": "876-210-9876",
+    "address": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "serviceIds": [13, 6],
+    "availableSlots": ["2023-10-28 11:00 AM", "2023-10-30 3:30 PM"]
+  },
+  {
+    "doctorId": 129,
+    "name": "Dr. Abhinav Gupta",
+    "email": "abhinav.gupta@medshine.com",
+    "phone": "765-432-1098",
+    "address": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "country": "India"
+    },
+    "serviceIds": [8, 19],
+    "availableSlots": ["2023-11-01 12:30 PM", "2023-11-03 2:30 PM"]
+  },
+  {
+    "doctorId": 130,
+    "name": "Dr. Rashi Singh",
+    "email": "rashi.singh@medshine.com",
+    "phone": "987-876-5432",
+    "address": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "serviceIds": [3, 9],
+    "availableSlots": ["2023-11-04 11:00 AM", "2023-11-06 4:00 PM"]
+  },
+  {
+    "doctorId": 131,
+    "name": "Dr. Aditya Sharma",
+    "email": "aditya.sharma@medshine.com",
+    "phone": "876-543-2109",
+    "address": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "country": "India"
+    },
+    "serviceIds": [1, 12],
+    "availableSlots": ["2023-11-11 9:30 AM", "2023-11-13 10:30 AM"]
+  },
+  {
+    "doctorId": 132,
+    "name": "Dr. Akanksha Gupta",
+    "email": "akanksha.gupta@medshine.com",
+    "phone": "987-765-4321",
+    "address": {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "country": "India"
+    },
+    "serviceIds": [9, 7],
+    "availableSlots": ["2023-11-14 2:00 PM", "2023-11-17 4:30 PM"]
+  },
+  {
+    "doctorId": 133,
+    "name": "Dr. Vivek Mehta",
+    "email": "vivek.mehta@medshine.com",
+    "phone": "876-210-9876",
+    "address": {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "country": "India"
+    },
+    "serviceIds": [6, 11],
+    "availableSlots": ["2023-11-18 11:00 AM", "2023-11-20 3:30 PM"]
+  },
+  {
+    "doctorId": 134,
+    "name": "Dr. Neha Sharma",
+    "email": "neha.sharma@medshine.com",
+    "phone": "765-432-1098",
+    "address": {
+      "city": "Chandigarh",
+      "state": "Punjab",
+      "country": "India"
+    },
+    "serviceIds": [2, 20],
+    "availableSlots": ["2023-11-21 12:30 PM", "2023-11-23 2:30 PM"]
+  },
+  {
+    "doctorId": 135,
+    "name": "Dr. Arjun Kapoor",
+    "email": "arjun.kapoor@medshine.com",
+    "phone": "987-876-5432",
+    "address": {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "country": "India"
+    },
+    "serviceIds": [18, 4],
+    "availableSlots": ["2023-11-24 11:00 AM", "2023-11-27 4:00 PM"]
   }
 ],
 
 
-"appointments" : [
+"services":[
   {
-    "appointmentId": 1,
-    "date": "2023-07-20",
-    "time": "10:00 AM",
-    "patientId": 1,
-    "doctorId": 1
+    "serviceId": 1,
+    "title": "General Health Checkup",
+    "description": "Comprehensive health assessments for overall well-being."
   },
   {
-    "appointmentId": 2,
-    "date": "2023-07-22",
-    "time": "3:30 PM",
-    "patientId": 2,
-    "doctorId": 2
+    "serviceId": 2,
+    "title": "Allergy Management",
+    "description": "Diagnosis and treatment of various allergies."
+  },
+  {
+    "serviceId": 3,
+    "title": "Diabetes Management",
+    "description": "Monitoring and control of diabetes through personalized plans."
+  },
+  {
+    "serviceId": 4,
+    "title": "Cardiology",
+    "description": "Evaluation and treatment of heart-related conditions."
+  },
+  {
+    "serviceId": 5,
+    "title": "Pediatrics",
+    "description": "Specialized care for infants, children, and adolescents."
+  },
+  {
+    "serviceId": 6,
+    "title": "Gynecology",
+    "description": "Women's reproductive health and wellness."
+  },
+  {
+    "serviceId": 7,
+    "title": "Orthopedics",
+    "description": "Diagnosis and treatment of musculoskeletal issues."
+  },
+  {
+    "serviceId": 8,
+    "title": "Dermatology",
+    "description": "Skin-related conditions and treatments."
+  },
+  {
+    "serviceId": 9,
+    "title": "Mental Health Counseling",
+    "description": "Support and therapy for emotional well-being."
+  },
+  {
+    "serviceId": 10,
+    "title": "Hypertension Management",
+    "description": "Control and monitoring of high blood pressure."
+  },
+  {
+    "serviceId": 11,
+    "title": "Obesity Counseling",
+    "description": "Guidance for weight management and healthy lifestyle."
+  },
+  {
+    "serviceId": 12,
+    "title": "Acne Treatment",
+    "description": "Solutions for managing acne and skin blemishes."
+  },
+  {
+    "serviceId": 13,
+    "title": "Sports Medicine",
+    "description": "Care and rehabilitation for sports-related injuries."
+  },
+  {
+    "serviceId": 14,
+    "title": "Asthma Management",
+    "description": "Treatment plans to manage asthma symptoms."
+  },
+  {
+    "serviceId": 15,
+    "title": "Gastroenterology",
+    "description": "Diagnosis and treatment of digestive system disorders."
+  },
+  {
+    "serviceId": 16,
+    "title": "High Cholesterol Management",
+    "description": "Strategies to control cholesterol levels."
+  },
+  {
+    "serviceId": 17,
+    "title": "Insomnia Treatment",
+    "description": "Solutions for managing sleep disorders."
+  },
+  {
+    "serviceId": 18,
+    "title": "Anemia Management",
+    "description": "Therapies to address low red blood cell count."
+  },
+  {
+    "serviceId": 19,
+    "title": "PCOS Management",
+    "description": "Strategies for managing polycystic ovary syndrome."
+  },
+  {
+    "serviceId": 20,
+    "title": "Food Poisoning Treatment",
+    "description": "Medical care for foodborne illnesses."
   }
 ]
 }
