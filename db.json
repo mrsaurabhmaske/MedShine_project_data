@@ -1,0 +1,62 @@
+{
+    "patients":[
+  {
+    "patientId": 1,
+    "name": "Amit Deshpande",
+    "email": "amit.deshpande@example.com",
+    "age": 35,
+    "gender": "Male",
+    "phone": "91-9876543211",
+    "address": { "city": "Pune", "district": "Pune" },
+    "doctorId": 1
+  },
+  {
+    "patientId": 2,
+    "name": "Priya Joshi",
+    "email": "priya.joshi@example.com",
+    "age": 28,
+    "gender": "Female",
+    "phone": "91-8765432101",
+    "address": { "city": "Mumbai", "district": "Mumbai" },
+    "doctorId": 2
+  }
+],
+
+
+"doctors" : [
+  {
+    "doctorId": 1,
+    "name": "Dr. Rajesh Deshmukh",
+    "speciality": "Cardiologist",
+    "email": "rajesh.deshmukh@example.com",
+    "phone": "91-9876543210",
+    "address": { "city": "Pune", "district": "Pune" }
+  },
+  {
+    "doctorId": 2,
+    "name": "Dr. Neha Joshi",
+    "speciality": "Pediatrician",
+    "email": "neha.joshi@example.com",
+    "phone": "91-8765432109",
+    "address": { "city": "Mumbai", "district": "Mumbai" }
+  }
+],
+
+
+"appointments" : [
+  {
+    "appointmentId": 1,
+    "date": "2023-07-20",
+    "time": "10:00 AM",
+    "patientId": 1,
+    "doctorId": 1
+  },
+  {
+    "appointmentId": 2,
+    "date": "2023-07-22",
+    "time": "3:30 PM",
+    "patientId": 2,
+    "doctorId": 2
+  }
+]
+}
