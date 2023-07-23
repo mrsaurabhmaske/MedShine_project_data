@@ -1,7 +1,7 @@
 {
     "patients":[
   {
-    "patientId": 1,
+    "id": 1,
     "name": "Amit Deshmukh",
     "email": "amit.deshmukh@medshine.com",
     "age": 32,
@@ -19,7 +19,7 @@
     "healthConditions": ["Asthma", "Hypertension"]
   },
   {
-    "patientId": 2,
+    "id": 2,
     "name": "Priya Sharma",
     "email": "priya.sharma@medshine.com",
     "age": 28,
@@ -37,7 +37,7 @@
     "healthConditions": ["Migraines", "Anemia"]
   },
   {
-    "patientId": 3,
+    "id": 3,
     "name": "Rahul Patel",
     "email": "rahul.patel@medshine.com",
     "age": 45,
@@ -55,7 +55,7 @@
     "healthConditions": ["Type 2 Diabetes", "High Cholesterol", "Obesity"]
   },
   {
-    "patientId": 4,
+    "id": 4,
     "name": "Anjali Singh",
     "email": "anjali.singh@medshine.com",
     "age": 35,
@@ -73,7 +73,7 @@
     "healthConditions": ["PCOS", "Depression", "Anxiety"]
   },
   {
-    "patientId": 5,
+    "id": 5,
     "name": "Rajesh Kumar",
     "email": "rajesh.kumar@medshine.com",
     "age": 50,
@@ -91,7 +91,7 @@
     "healthConditions": ["Heart Disease", "High Blood Pressure", "Smoking"]
   },
   {
-    "patientId": 6,
+    "id": 6,
     "name": "Swati Sharma",
     "email": "swati.sharma@medshine.com",
     "age": 42,
@@ -109,7 +109,7 @@
     "healthConditions": ["Hypothyroidism", "Anxiety", "High Blood Pressure"]
   },
   {
-    "patientId": 7,
+    "id": 7,
     "name": "Aakash Singh",
     "email": "aakash.singh@medshine.com",
     "age": 55,
@@ -127,7 +127,7 @@
     "healthConditions": ["Heart Disease", "Diabetes", "High Cholesterol"]
   },
   {
-    "patientId": 8,
+    "id": 8,
     "name": "Mihir Patel",
     "email": "mihir.patel@medshine.com",
     "age": 30,
@@ -145,7 +145,7 @@
     "healthConditions": ["Migraines", "Insomnia"]
   },
   {
-    "patientId": 9,
+    "id": 9,
     "name": "Kirti Gupta",
     "email": "kirti.gupta@medshine.com",
     "age": 38,
@@ -163,7 +163,7 @@
     "healthConditions": ["Asthma", "Allergies"]
   },
   {
-    "patientId": 10,
+    "id": 10,
     "name": "Vivek Sharma",
     "email": "vivek.sharma@medshine.com",
     "age": 25,
@@ -185,7 +185,7 @@
 
 "doctors" : [
       {
-    "doctorId": 101,
+    "id": 101,
     "name": "Dr. Rajesh Deshmukh",
     "email": "rajesh.deshmukh@medshine.com",
     "phone": "987-654-3210",
@@ -199,7 +199,7 @@
     "fees":900
   },
   {
-    "doctorId": 102,
+    "id": 102,
     "name": "Dr. Neha Joshi",
     "email": "neha.joshi@medshine.com",
     "phone": "876-543-2109",
@@ -213,7 +213,7 @@
     "fees":1100
   },
   {
-    "doctorId": 103,
+    "id": 103,
     "name": "Dr. Aarti Singh",
     "email": "aarti.singh@medshine.com",
     "phone": "765-432-1098",
@@ -227,7 +227,7 @@
     "fees":800
   },
   {
-    "doctorId": 104,
+    "id": 104,
     "name": "Dr. Karan Mehta",
     "email": "karan.mehta@medshine.com",
     "phone": "987-123-4567",
@@ -241,7 +241,7 @@
     "fees":600
   },
   {
-    "doctorId": 105,
+    "id": 105,
     "name": "Dr. Sneha Kapoor",
     "email": "sneha.kapoor@medshine.com",
     "phone": "765-876-5432",
@@ -255,7 +255,7 @@
     "fees":3400
   },
   {
-    "doctorId": 106,
+    "id": 106,
     "name": "Dr. Manish Sharma",
     "email": "manish.sharma@medshine.com",
     "phone": "876-654-4321",
@@ -269,7 +269,7 @@
     "fees":3050
   },
   {
-    "doctorId": 107,
+    "id": 107,
     "name": "Dr. Deepika Gupta",
     "email": "deepika.gupta@medshine.com",
     "phone": "876-543-2109",
@@ -283,7 +283,7 @@
     "fees":300
   },
   {
-    "doctorId": 108,
+    "id": 108,
     "name": "Dr. Rohan Verma",
     "email": "rohan.verma@medshine.com",
     "phone": "987-765-4321",
@@ -297,7 +297,7 @@
     "fees":1300
   },
   {
-    "doctorId": 109,
+    "id": 109,
     "name": "Dr. Shweta Singhania",
     "email": "shweta.singhania@medshine.com",
     "phone": "876-210-9876",
@@ -311,7 +311,7 @@
     "fees":1500
   },
   {
-    "doctorId": 110,
+    "id": 110,
     "name": "Dr. Siddharth Mehra",
     "email": "siddharth.mehra@medshine.com",
     "phone": "765-432-1098",
@@ -325,7 +325,7 @@
     "fees":1250
   },
   {
-    "doctorId": 111,
+    "id": 111,
     "name": "Dr. Ananya Patel",
     "email": "ananya.patel@medshine.com",
     "phone": "987-876-5432",
@@ -339,7 +339,7 @@
     "fees":1400
   },
   {
-    "doctorId": 112,
+    "id": 112,
     "name": "Dr. Sameer Kapoor",
     "email": "sameer.kapoor@medshine.com",
     "phone": "765-654-3210",
@@ -353,7 +353,7 @@
     "fees":1900
   },
   {
-    "doctorId": 113,
+    "id": 113,
     "name": "Dr. Aryan Khanna",
     "email": "aryan.khanna@medshine.com",
     "phone": "876-543-2109",
@@ -367,7 +367,7 @@
     "fees":3050
   },
   {
-    "doctorId": 114,
+    "id": 114,
     "name": "Dr. Ishita Sharma",
     "email": "ishita.sharma@medshine.com",
     "phone": "987-765-4321",
@@ -381,7 +381,7 @@
     "fees":2300
   },
   {
-    "doctorId": 115,
+    "id": 115,
     "name": "Dr. Vikram Singh",
     "email": "vikram.singh@medshine.com",
     "phone": "876-210-9876",
@@ -395,7 +395,7 @@
     "fees":1200
   },
   {
-    "doctorId": 116,
+    "id": 116,
     "name": "Dr. Natasha Reddy",
     "email": "natasha.reddy@medshine.com",
     "phone": "765-432-1098",
@@ -409,7 +409,7 @@
     "fees":3000
   },
   {
-    "doctorId": 117,
+    "id": 117,
     "name": "Dr. Sameer Kapoor",
     "email": "sameer.kapoor@medshine.com",
     "phone": "987-876-5432",
@@ -423,7 +423,7 @@
     "fees":300
   },
   {
-    "doctorId": 118,
+    "id": 118,
     "name": "Dr. Priya Sharma",
     "email": "priya.sharma@medshine.com",
     "phone": "765-654-3210",
@@ -437,7 +437,7 @@
     "fees":800
   },
   {
-    "doctorId": 119,
+    "id": 119,
     "name": "Dr. Aditi Verma",
     "email": "aditi.verma@medshine.com",
     "phone": "876-543-2109",
@@ -451,7 +451,7 @@
     "fees":5000
   },
   {
-    "doctorId": 120,
+    "id": 120,
     "name": "Dr. Alok Kumar",
     "email": "alok.kumar@medshine.com",
     "phone": "987-765-4321",
@@ -465,7 +465,7 @@
     "fees":1000
   },
   {
-    "doctorId": 121,
+    "id": 121,
     "name": "Dr. Neha Reddy",
     "email": "neha.reddy@medshine.com",
     "phone": "876-210-9876",
@@ -479,7 +479,7 @@
     "fees":400
   },
   {
-    "doctorId": 122,
+    "id": 122,
     "name": "Dr. Siddharth Verma",
     "email": "siddharth.verma@medshine.com",
     "phone": "765-432-1098",
@@ -493,7 +493,7 @@
     "fees":150
   },
   {
-    "doctorId": 123,
+    "id": 123,
     "name": "Dr. Meera Singh",
     "email": "meera.singh@medshine.com",
     "phone": "987-876-5432",
@@ -507,7 +507,7 @@
     "fees":200
   },
   {
-    "doctorId": 124,
+    "id": 124,
     "name": "Dr. Rajat Kapoor",
     "email": "rajat.kapoor@medshine.com",
     "phone": "765-654-3210",
@@ -521,7 +521,7 @@
     "fees":3140
   },
   {
-    "doctorId": 125,
+    "id": 125,
     "name": "Dr. Ritu Sharma",
     "email": "ritu.sharma@medshine.com",
     "phone": "876-543-2109",
@@ -535,7 +535,7 @@
     "fees":500
   },
   {
-    "doctorId": 126,
+    "id": 126,
     "name": "Dr. Rohini Desai",
     "email": "rohini.desai@medshine.com",
     "phone": "876-543-2109",
@@ -549,7 +549,7 @@
     "fees":900
   },
   {
-    "doctorId": 127,
+    "id": 127,
     "name": "Dr. Anand Khurana",
     "email": "anand.khurana@medshine.com",
     "phone": "987-765-4321",
@@ -563,7 +563,7 @@
     "fees":700
   },
   {
-    "doctorId": 128,
+    "id": 128,
     "name": "Dr. Tanvi Shah",
     "email": "tanvi.shah@medshine.com",
     "phone": "876-210-9876",
@@ -577,7 +577,7 @@
     "fees":2600
   },
   {
-    "doctorId": 129,
+    "id": 129,
     "name": "Dr. Abhinav Gupta",
     "email": "abhinav.gupta@medshine.com",
     "phone": "765-432-1098",
@@ -591,7 +591,7 @@
     "fees":2100
   },
   {
-    "doctorId": 130,
+    "id": 130,
     "name": "Dr. Rashi Singh",
     "email": "rashi.singh@medshine.com",
     "phone": "987-876-5432",
@@ -605,7 +605,7 @@
     "fees":1200
   },
   {
-    "doctorId": 131,
+    "id": 131,
     "name": "Dr. Aditya Sharma",
     "email": "aditya.sharma@medshine.com",
     "phone": "876-543-2109",
@@ -619,7 +619,7 @@
     "fees":1200
   },
   {
-    "doctorId": 132,
+    "id": 132,
     "name": "Dr. Akanksha Gupta",
     "email": "akanksha.gupta@medshine.com",
     "phone": "987-765-4321",
@@ -633,7 +633,7 @@
     "fees":1000
   },
   {
-    "doctorId": 133,
+    "id": 133,
     "name": "Dr. Vivek Mehta",
     "email": "vivek.mehta@medshine.com",
     "phone": "876-210-9876",
@@ -647,7 +647,7 @@
     "fees":300
   },
   {
-    "doctorId": 134,
+    "id": 134,
     "name": "Dr. Neha Sharma",
     "email": "neha.sharma@medshine.com",
     "phone": "765-432-1098",
@@ -661,7 +661,7 @@
     "fees":2600
   },
   {
-    "doctorId": 135,
+    "id": 135,
     "name": "Dr. Arjun Kapoor",
     "email": "arjun.kapoor@medshine.com",
     "phone": "987-876-5432",
@@ -679,102 +679,102 @@
 
 "services":[
   {
-    "serviceId": 1,
+    "id": 1,
     "title": "General Health Checkup",
     "description": "Comprehensive health assessments for overall well-being."
   },
   {
-    "serviceId": 2,
+    "id": 2,
     "title": "Allergy Management",
     "description": "Diagnosis and treatment of various allergies."
   },
   {
-    "serviceId": 3,
+    "id": 3,
     "title": "Diabetes Management",
     "description": "Monitoring and control of diabetes through personalized plans."
   },
   {
-    "serviceId": 4,
+    "id": 4,
     "title": "Cardiology",
     "description": "Evaluation and treatment of heart-related conditions."
   },
   {
-    "serviceId": 5,
+    "id": 5,
     "title": "Pediatrics",
     "description": "Specialized care for infants, children, and adolescents."
   },
   {
-    "serviceId": 6,
+    "id": 6,
     "title": "Gynecology",
     "description": "Women's reproductive health and wellness."
   },
   {
-    "serviceId": 7,
+    "id": 7,
     "title": "Orthopedics",
     "description": "Diagnosis and treatment of musculoskeletal issues."
   },
   {
-    "serviceId": 8,
+    "id": 8,
     "title": "Dermatology",
     "description": "Skin-related conditions and treatments."
   },
   {
-    "serviceId": 9,
+    "id": 9,
     "title": "Mental Health Counseling",
     "description": "Support and therapy for emotional well-being."
   },
   {
-    "serviceId": 10,
+    "id": 10,
     "title": "Hypertension Management",
     "description": "Control and monitoring of high blood pressure."
   },
   {
-    "serviceId": 11,
+    "id": 11,
     "title": "Obesity Counseling",
     "description": "Guidance for weight management and healthy lifestyle."
   },
   {
-    "serviceId": 12,
+    "id": 12,
     "title": "Acne Treatment",
     "description": "Solutions for managing acne and skin blemishes."
   },
   {
-    "serviceId": 13,
+    "id": 13,
     "title": "Sports Medicine",
     "description": "Care and rehabilitation for sports-related injuries."
   },
   {
-    "serviceId": 14,
+    "id": 14,
     "title": "Asthma Management",
     "description": "Treatment plans to manage asthma symptoms."
   },
   {
-    "serviceId": 15,
+    "id": 15,
     "title": "Gastroenterology",
     "description": "Diagnosis and treatment of digestive system disorders."
   },
   {
-    "serviceId": 16,
+    "id": 16,
     "title": "High Cholesterol Management",
     "description": "Strategies to control cholesterol levels."
   },
   {
-    "serviceId": 17,
+    "id": 17,
     "title": "Insomnia Treatment",
     "description": "Solutions for managing sleep disorders."
   },
   {
-    "serviceId": 18,
+    "id": 18,
     "title": "Anemia Management",
     "description": "Therapies to address low red blood cell count."
   },
   {
-    "serviceId": 19,
+    "id": 19,
     "title": "PCOS Management",
     "description": "Strategies for managing polycystic ovary syndrome."
   },
   {
-    "serviceId": 20,
+    "id": 20,
     "title": "Food Poisoning Treatment",
     "description": "Medical care for foodborne illnesses."
   }
