@@ -676,6 +676,1158 @@
   }
 ],
 
+"appointments":[
+  {
+      "id": 1,
+      "patientid": 1,
+      "doctorid": 128,
+      "service": {
+        "id": 14,
+        "title": "Asthma Management",
+        "description": "Treatment plans and medications for managing asthma."
+      },
+      "appointmentDateTime": "2023-09-13 02:45 PM",
+      "doctor": {
+        "doctorid": 128,
+        "name": "Dr. Tanvi Shah",
+        "email": "tanvi.shah@medshine.com",
+        "phone": "876-210-9876",
+        "fees": 2600
+      },
+      "patient": {
+        "patientid": 1,
+        "name": "Amit Deshmukh",
+        "email": "amit.deshmukh@medshine.com"
+      }
+    },
+    {
+      "id": 2,
+      "patientid": 2,
+      "doctorid": 129,
+      "service": {
+        "id": 17,
+        "title": "Insomnia Treatment",
+        "description": "Therapies and remedies for managing insomnia and sleep disorders."
+      },
+      "appointmentDateTime": "2023-09-14 11:00 AM",
+      "doctor": {
+        "doctorid": 129,
+        "name": "Dr. Abhinav Gupta",
+        "email": "abhinav.gupta@medshine.com",
+        "phone": "765-432-1098",
+        "fees": 2100
+      },
+      "patient": {
+        "patientid": 2,
+        "name": "Priya Sharma",
+        "email": "priya.sharma@medshine.com"
+      }
+    },
+    {
+      "id": 3,
+      "patientid": 3,
+      "doctorid": 131,
+      "service": {
+        "id": 9,
+        "title": "Mental Health Counseling",
+        "description": "Support and therapy for emotional well-being."
+      },
+      "appointmentDateTime": "2023-09-15 03:30 PM",
+      "doctor": {
+        "doctorid": 131,
+        "name": "Dr. Aditya Sharma",
+        "email": "aditya.sharma@medshine.com",
+        "phone": "876-543-2109",
+        "fees": 1200
+      },
+      "patient": {
+        "patientid": 3,
+        "name": "Rahul Patel",
+        "email": "rahul.patel@medshine.com"
+      }
+    },
+    {
+      "id": 4,
+      "patientid": 4,
+      "doctorid": 132,
+      "service": {
+        "id": 6,
+        "title": "Gynecology",
+        "description": "Medical care and treatments related to the female reproductive system."
+      },
+      "appointmentDateTime": "2023-09-16 09:15 AM",
+      "doctor": {
+        "doctorid": 132,
+        "name": "Dr. Akanksha Gupta",
+        "email": "akanksha.gupta@medshine.com",
+        "phone": "987-765-4321",
+        "fees": 1000
+      },
+      "patient": {
+        "patientid": 4,
+        "name": "Anjali Singh",
+        "email": "anjali.singh@medshine.com"
+      }
+    },
+    {
+      "id": 5,
+      "patientid": 5,
+      "doctorid": 133,
+      "service": {
+        "id": 13,
+        "title": "Sports Medicine",
+        "description": "Care and rehabilitation for sports-related injuries."
+      },
+      "appointmentDateTime": "2023-09-17 12:30 PM",
+      "doctor": {
+        "doctorid": 133,
+        "name": "Dr. Vivek Mehta",
+        "email": "vivek.mehta@medshine.com",
+        "phone": "876-210-9876",
+        "fees": 300
+      },
+      "patient": {
+        "patientid": 5,
+        "name": "Rajesh Kumar",
+        "email": "rajesh.kumar@medshine.com"
+      }
+    },{
+      "id": 6,
+      "patientid": 6,
+      "doctorid": 134,
+      "service": {
+        "id": 15,
+        "title": "Gastroenterology",
+        "description": "Diagnosis and treatment of digestive system disorders."
+      },
+      "appointmentDateTime": "2023-09-18 04:00 PM",
+      "doctor": {
+        "doctorid": 134,
+        "name": "Dr. Neha Sharma",
+        "email": "neha.sharma@medshine.com",
+        "phone": "765-432-1098",
+        "fees": 2600
+      },
+      "patient": {
+        "patientid": 6,
+        "name": "Swati Sharma",
+        "email": "swati.sharma@medshine.com"
+      }
+    },
+    {
+      "id": 7,
+      "patientid": 7,
+      "doctorid": 135,
+      "service": {
+        "id": 10,
+        "title": "Hypertension Management",
+        "description": "Lifestyle and medical interventions for managing hypertension."
+      },
+      "appointmentDateTime": "2023-09-19 10:45 AM",
+      "doctor": {
+        "doctorid": 135,
+        "name": "Dr. Arjun Kapoor",
+        "email": "arjun.kapoor@medshine.com",
+        "phone": "987-876-5432",
+        "fees": 3000
+      },
+      "patient": {
+        "patientid": 7,
+        "name": "Aakash Singh",
+        "email": "aakash.singh@medshine.com"
+      }
+    },
+    {
+      "id": 8,
+      "patientid": 8,
+      "doctorid": 101,
+      "service": {
+        "id": 1,
+        "title": "General Health Checkup",
+        "description": "Comprehensive health assessments for overall well-being."
+      },
+      "appointmentDateTime": "2023-09-20 02:30 PM",
+      "doctor": {
+        "doctorid": 101,
+        "name": "Dr. Rajesh Deshmukh",
+        "email": "rajesh.deshmukh@medshine.com",
+        "phone": "987-654-3210",
+        "fees": 900
+      },
+      "patient": {
+        "patientid": 8,
+        "name": "Mihir Patel",
+        "email": "mihir.patel@medshine.com"
+      }
+    },
+    {
+      "id": 9,
+      "patientid": 9,
+      "doctorid": 102,
+      "service": {
+        "id": 19,
+        "title": "PCOS Management",
+        "description": "Strategies for managing polycystic ovary syndrome."
+      },
+      "appointmentDateTime": "2023-09-21 11:30 AM",
+      "doctor": {
+        "doctorid": 102,
+        "name": "Dr. Neha Joshi",
+        "email": "neha.joshi@medshine.com",
+        "phone": "876-543-2109",
+        "fees": 1100
+      },
+      "patient": {
+        "patientid": 9,
+        "name": "Kirti Gupta",
+        "email": "kirti.gupta@medshine.com"
+      }
+    },
+    {
+      "id": 10,
+      "patientid": 10,
+      "doctorid": 103,
+      "service": {
+        "id": 3,
+        "title": "Diabetes Management",
+        "description": "Care and treatment plans for individuals with diabetes."
+      },
+      "appointmentDateTime": "2023-09-22 09:00 AM",
+      "doctor": {
+        "doctorid": 103,
+        "name": "Dr. Aarti Singh",
+        "email": "aarti.singh@medshine.com",
+        "phone": "765-432-1098",
+        "fees": 800
+      },
+      "patient": {
+        "patientid": 10,
+        "name": "Vivek Sharma",
+        "email": "vivek.sharma@medshine.com"
+      }
+    },
+  {
+      "id": 11,
+      "patientid": 10,
+      "doctorid": 112,
+      "service": {
+        "id": 3,
+        "title": "Diabetes Management",
+        "description": "Strategies for managing diabetes and blood sugar levels."
+      },
+      "appointmentDateTime": "2023-08-04 11:30 AM",
+      "doctor": {
+        "doctorid": 112,
+        "name": "Dr. Sameer Kapoor",
+        "email": "sameer.kapoor@medshine.com",
+        "phone": "765-654-3210",
+        "fees": 1900
+      },
+      "patient": {
+        "patientid": 10,
+        "name": "Vivek Sharma",
+        "email": "vivek.sharma@medshine.com"
+      }
+    },
+    {
+      "id": 12,
+      "patientid": 3,
+      "doctorid": 122,
+      "service": {
+        "id": 1,
+        "title": "General Health Checkup",
+        "description": "Comprehensive health assessments for overall well-being."
+      },
+      "appointmentDateTime": "2023-08-05 10:15 AM",
+      "doctor": {
+        "doctorid": 122,
+        "name": "Dr. Siddharth Verma",
+        "email": "siddharth.verma@medshine.com",
+        "phone": "765-432-1098",
+        "fees": 150
+      },
+      "patient": {
+        "patientid": 3,
+        "name": "Rahul Patel",
+        "email": "rahul.patel@medshine.com"
+      }
+    },
+    {
+      "id": 13,
+      "patientid": 6,
+      "doctorid": 106,
+      "service": {
+        "id": 7,
+        "title": "Orthopedics",
+        "description": "Eye-related conditions and treatments."
+      },
+      "appointmentDateTime": "2023-08-06 01:45 PM",
+      "doctor": {
+        "doctorid": 106,
+        "name": "Dr. Manish Sharma",
+        "email": "manish.sharma@medshine.com",
+        "phone": "876-654-4321",
+        "fees": 3050
+      },
+      "patient": {
+        "patientid": 6,
+        "name": "Swati Sharma",
+        "email": "swati.sharma@medshine.com"
+      }
+    },
+    {
+      "id": 14,
+      "patientid": 8,
+      "doctorid": 105,
+      "service": {
+        "id": 8,
+        "title": "Dermatology",
+        "description": "Skin-related conditions and treatments."
+      },
+      "appointmentDateTime": "2023-08-07 03:30 PM",
+      "doctor": {
+        "doctorid": 105,
+        "name": "Dr. Sneha Kapoor",
+        "email": "sneha.kapoor@medshine.com",
+        "phone": "765-876-5432",
+        "fees": 3400
+      },
+      "patient": {
+        "patientid": 8,
+        "name": "Mihir Patel",
+        "email": "mihir.patel@medshine.com"
+      }
+    },
+    {
+      "id": 15,
+      "patientid": 10,
+      "doctorid": 107,
+      "service": {
+        "id": 11,
+        "title": "Obesity Counseling",
+        "description": "Guidance and strategies for managing obesity and weight loss."
+      },
+      "appointmentDateTime": "2023-08-08 09:00 AM",
+      "doctor": {
+        "doctorid": 107,
+        "name": "Dr. Deepika Gupta",
+        "email": "deepika.gupta@medshine.com",
+        "phone": "876-543-2109",
+        "fees": 300
+      },
+      "patient": {
+        "patientid": 10,
+        "name": "Vivek Sharma",
+        "email": "vivek.sharma@medshine.com"
+      }
+    },
+    {
+      "id": 16,
+      "patientid": 4,
+      "doctorid": 118,
+      "service": {
+        "id": 9,
+        "title": "Mental Health Counseling",
+        "description": "Support and therapy for emotional well-being."
+      },
+      "appointmentDateTime": "2023-08-09 12:45 PM",
+      "doctor": {
+        "doctorid": 118,
+        "name": "Dr. Priya Sharma",
+        "email": "priya.sharma@medshine.com",
+        "phone": "765-654-3210",
+        "fees": 800
+      },
+      "patient": {
+        "patientid": 4,
+        "name": "Anjali Singh",
+        "email": "anjali.singh@medshine.com"
+      }
+    },
+    {
+      "id": 17,
+      "patientid": 2,
+      "doctorid": 111,
+      "service": {
+        "id": 6,
+        "title": "Gynecology",
+        "description": "Specialized care for women's reproductive health."
+      },
+      "appointmentDateTime": "2023-08-10 04:30 PM",
+      "doctor": {
+        "doctorid": 111,
+        "name": "Dr. Ananya Patel",
+        "email": "ananya.patel@medshine.com",
+        "phone": "987-876-5432",
+        "fees": 1400
+      },
+      "patient": {
+        "patientid": 2,
+        "name": "Priya Sharma",
+        "email": "priya.sharma@medshine.com"
+      }
+    },
+    {
+      "id": 18,
+      "patientid": 7,
+      "doctorid": 116,
+      "service": {
+        "id": 7,
+        "title": "Orthopedics",
+        "description": "Eye-related conditions and treatments."
+      },
+      "appointmentDateTime": "2023-08-11 02:15 PM",
+      "doctor": {
+        "doctorid": 116,
+        "name": "Dr. Natasha Reddy",
+        "email": "natasha.reddy@medshine.com",
+        "phone": "765-432-1098",
+        "fees": 3000
+      },
+      "patient": {
+        "patientid": 7,
+        "name": "Aakash Singh",
+        "email": "aakash.singh@medshine.com"
+      }
+    },
+    {
+      "id": 19,
+      "patientid": 5,
+      "doctorid": 103,
+      "service": {
+        "id": 15,
+        "title": "Gastroenterology",
+        "description": "Treatment and care for digestive system disorders."
+      },
+      "appointmentDateTime": "2023-08-12 10:30 AM",
+      "doctor": {
+        "doctorid": 103,
+        "name": "Dr. Aarti Singh",
+        "email": "aarti.singh@medshine.com",
+        "phone": "765-432-1098",
+        "fees": 800
+      },
+      "patient": {
+        "patientid": 5,
+        "name": "Rajesh Kumar",
+        "email": "rajesh.kumar@medshine.com"
+      }
+    },
+    {
+      "id": 20,
+      "patientid": 9,
+      "doctorid": 104,
+      "service": {
+        "id": 12,
+        "title": "Acne Treatment",
+        "description": "Medical treatment for acne and related skin conditions."
+      },
+      "appointmentDateTime": "2023-08-13 11:45 AM",
+      "doctor": {
+        "doctorid": 104,
+        "name": "Dr. Karan Mehta",
+        "email": "karan.mehta@medshine.com",
+        "phone": "987-123-4567",
+        "fees": 600
+      },
+      "patient": {
+        "patientid": 9,
+        "name": "Kirti Gupta",
+        "email": "kirti.gupta@medshine.com"
+      }
+    },
+    {
+      "id": 21,
+      "patientid": 10,
+      "doctorid": 106,
+      "service": {
+        "id": 13,
+        "title": "Sports Medicine",
+        "description": "Care and rehabilitation for sports-related injuries."
+      },
+      "appointmentDateTime": "2023-08-14 09:30 AM",
+      "doctor": {
+        "doctorid": 106,
+        "name": "Dr. Manish Sharma",
+        "email": "manish.sharma@medshine.com",
+        "phone": "876-654-4321",
+        "fees": 3050
+      },
+      "patient": {
+        "patientid": 10,
+        "name": "Vivek Sharma",
+        "email": "vivek.sharma@medshine.com"
+      }
+    },
+    {
+      "id": 22,
+      "patientid": 5,
+      "doctorid": 113,
+      "service": {
+        "id": 6,
+        "title": "Gynecology",
+        "description": "Specialized care for women's reproductive health."
+      },
+      "appointmentDateTime": "2023-08-15 02:00 PM",
+      "doctor": {
+        "doctorid": 113,
+        "name": "Dr. Aryan Khanna",
+        "email": "aryan.khanna@medshine.com",
+        "phone": "876-543-2109",
+        "fees": 3050
+      },
+      "patient": {
+        "patientid": 5,
+        "name": "Rajesh Kumar",
+        "email": "rajesh.kumar@medshine.com"
+      }
+    },
+    {
+      "id": 23,
+      "patientid": 7,
+      "doctorid": 125,
+      "service": {
+        "id": 3,
+        "title": "Diabetes Management",
+        "description": "Monitoring and treatment of diabetes and its complications."
+      },
+      "appointmentDateTime": "2023-08-16 10:15 AM",
+      "doctor": {
+        "doctorid": 125,
+        "name": "Dr. Ritu Sharma",
+        "email": "ritu.sharma@medshine.com",
+        "phone": "876-543-2109",
+        "fees": 500
+      },
+      "patient": {
+        "patientid": 7,
+        "name": "Aakash Singh",
+        "email": "aakash.singh@medshine.com"
+      }
+    },
+    {
+      "id": 24,
+      "patientid": 9,
+      "doctorid": 124,
+      "service": {
+        "id": 20,
+        "title": "Food Poisoning Treatment",
+        "description": "Medical treatment for food poisoning and related symptoms."
+      },
+      "appointmentDateTime": "2023-08-17 12:30 PM",
+      "doctor": {
+        "doctorid": 124,
+        "name": "Dr. Rajat Kapoor",
+        "email": "rajat.kapoor@medshine.com",
+        "phone": "765-654-3210",
+        "fees": 3140
+      },
+      "patient": {
+        "patientid": 9,
+        "name": "Kirti Gupta",
+        "email": "kirti.gupta@medshine.com"
+      }
+    },
+    {
+      "id": 25,
+      "patientid": 6,
+      "doctorid": 121,
+      "service": {
+        "id": 5,
+        "title": "Pediatrics",
+        "description": "Medical care for infants, children, and adolescents."
+      },
+      "appointmentDateTime": "2023-08-18 04:00 PM",
+      "doctor": {
+        "doctorid": 121,
+        "name": "Dr. Neha Reddy",
+        "email": "neha.reddy@medshine.com",
+        "phone": "876-210-9876",
+        "fees": 400
+      },
+      "patient": {
+        "patientid": 6,
+        "name": "Swati Sharma",
+        "email": "swati.sharma@medshine.com"
+      }
+    },
+    {
+      "id": 26,
+      "patientid": 8,
+      "doctorid": 128,
+      "service": {
+        "id": 7,
+        "title": "Orthopedics",
+        "description": "Medical care and treatment for musculoskeletal conditions."
+      },
+      "appointmentDateTime": "2023-08-19 11:30 AM",
+      "doctor": {
+        "doctorid": 128,
+        "name": "Dr. Tanvi Shah",
+        "email": "tanvi.shah@medshine.com",
+        "phone": "876-210-9876",
+        "fees": 2600
+      },
+      "patient": {
+        "patientid": 8,
+        "name": "Mihir Patel",
+        "email": "mihir.patel@medshine.com"
+      }
+    },
+    {
+      "id": 27,
+      "patientid": 3,
+      "doctorid": 105,
+      "service": {
+        "id": 8,
+        "title": "Dermatology",
+        "description": "Skin-related conditions and treatments."
+      },
+      "appointmentDateTime": "2023-08-20 02:45 PM",
+      "doctor": {
+        "doctorid": 105,
+        "name": "Dr. Sneha Kapoor",
+        "email": "sneha.kapoor@medshine.com",
+        "phone": "765-876-5432",
+        "fees": 3400
+      },
+      "patient": {
+        "patientid": 3,
+        "name": "Rahul Patel",
+        "email": "rahul.patel@medshine.com"
+      }
+    },
+    {
+      "id": 28,
+      "patientid": 1,
+      "doctorid": 114,
+      "service": {
+        "id": 12,
+        "title": "Acne Treatment",
+        "description": "Treatment and management of acne and related skin conditions."
+      },
+      "appointmentDateTime": "2023-08-21 04:30 PM",
+      "doctor": {
+        "doctorid": 114,
+        "name": "Dr. Ishita Sharma",
+        "email": "ishita.sharma@medshine.com",
+        "phone": "987-765-4321",
+        "fees": 2300
+      },
+      "patient": {
+        "patientid": 1,
+        "name": "Amit Deshmukh",
+        "email": "amit.deshmukh@medshine.com"
+      }
+    },
+    {
+      "id": 29,
+      "patientid": 2,
+      "doctorid": 110,
+      "service": {
+        "id": 13,
+        "title": "Sports Medicine",
+        "description": "Care and rehabilitation for sports-related injuries."
+      },
+      "appointmentDateTime": "2023-08-22 10:00 AM",
+      "doctor": {
+        "doctorid": 110,
+        "name": "Dr. Siddharth Mehra",
+        "email": "siddharth.mehra@medshine.com",
+        "phone": "765-432-1098",
+        "fees": 1250
+      },
+      "patient": {
+        "patientid": 2,
+        "name": "Priya Sharma",
+        "email": "priya.sharma@medshine.com"
+      }
+    },
+    {
+      "id": 30,
+      "patientid": 5,
+      "doctorid": 101,
+      "service": {
+        "id": 1,
+        "title": "General Health Checkup",
+        "description": "Comprehensive health assessments for overall well-being."
+      },
+      "appointmentDateTime": "2023-08-23 11:15 AM",
+      "doctor": {
+        "doctorid": 101,
+        "name": "Dr. Rajesh Deshmukh",
+        "email": "rajesh.deshmukh@medshine.com",
+        "phone": "987-654-3210",
+        "fees": 900
+      },
+      "patient": {
+        "patientid": 5,
+        "name": "Rajesh Kumar",
+        "email": "rajesh.kumar@medshine.com"
+      }
+    },
+    {
+      "id": 31,
+      "patientid": 6,
+      "doctorid": 108,
+      "service": {
+        "id": 16,
+        "title": "High Cholesterol Management",
+        "description": "Strategies and treatments for managing high cholesterol levels."
+      },
+      "appointmentDateTime": "2023-08-24 01:30 PM",
+      "doctor": {
+        "doctorid": 108,
+        "name": "Dr. Rohan Verma",
+        "email": "rohan.verma@medshine.com",
+        "phone": "987-765-4321",
+        "fees": 1300
+      },
+      "patient": {
+        "patientid": 6,
+        "name": "Swati Sharma",
+        "email": "swati.sharma@medshine.com"
+      }
+    },
+    {
+      "id": 32,
+      "patientid": 7,
+      "doctorid": 133,
+      "service": {
+        "id": 17,
+        "title": "Insomnia Treatment",
+        "description": "Therapies and techniques for managing insomnia and improving sleep."
+      },
+      "appointmentDateTime": "2023-08-25 04:45 PM",
+      "doctor": {
+        "doctorid": 133,
+        "name": "Dr. Vivek Mehta",
+        "email": "vivek.mehta@medshine.com",
+        "phone": "876-210-9876",
+        "fees": 300
+      },
+      "patient": {
+        "patientid": 7,
+        "name": "Aakash Singh",
+        "email": "aakash.singh@medshine.com"
+      }
+    },
+    {
+      "id": 33,
+      "patientid": 1,
+      "doctorid": 116,
+      "service": {
+        "id": 13,
+        "title": "Sports Medicine",
+        "description": "Care and rehabilitation for sports-related injuries."
+      },
+      "appointmentDateTime": "2023-08-26 10:30 AM",
+      "doctor": {
+        "doctorid": 116,
+        "name": "Dr. Natasha Reddy",
+        "email": "natasha.reddy@medshine.com",
+        "phone": "765-432-1098",
+        "fees": 3000
+      },
+      "patient": {
+        "patientid": 1,
+        "name": "Amit Deshmukh",
+        "email": "amit.deshmukh@medshine.com"
+      }
+    },
+    {
+      "id": 34,
+      "patientid": 10,
+      "doctorid": 120,
+      "service": {
+        "id": 3,
+        "title": "Diabetes Management",
+        "description": "Comprehensive care for individuals with diabetes."
+      },
+      "appointmentDateTime": "2023-08-27 02:15 PM",
+      "doctor": {
+        "doctorid": 120,
+        "name": "Dr. Alok Kumar",
+        "email": "alok.kumar@medshine.com",
+        "phone": "987-765-4321",
+        "fees": 1000
+      },
+      "patient": {
+        "patientid": 10,
+        "name": "Vivek Sharma",
+        "email": "vivek.sharma@medshine.com"
+      }
+    },
+    {
+      "id": 35,
+      "patientid": 9,
+      "doctorid": 118,
+      "service": {
+        "id": 6,
+        "title": "Gynecology",
+        "description": "Medical care for female reproductive health and related conditions."
+      },
+      "appointmentDateTime": "2023-08-28 03:00 PM",
+      "doctor": {
+        "doctorid": 118,
+        "name": "Dr. Priya Sharma",
+        "email": "priya.sharma@medshine.com",
+        "phone": "765-654-3210",
+        "fees": 800
+      },
+      "patient": {
+        "patientid": 9,
+        "name": "Kirti Gupta",
+        "email": "kirti.gupta@medshine.com"
+      }
+    },
+    {
+      "id": 36,
+      "patientid": 5,
+      "doctorid": 131,
+      "service": {
+        "id": 11,
+        "title": "Obesity Counseling",
+        "description": "Guidance and support for managing obesity and weight-related concerns."
+      },
+      "appointmentDateTime": "2023-08-29 12:45 PM",
+      "doctor": {
+        "doctorid": 131,
+        "name": "Dr. Aditya Sharma",
+        "email": "aditya.sharma@medshine.com",
+        "phone": "876-543-2109",
+        "fees": 1200
+      },
+      "patient": {
+        "patientid": 5,
+        "name": "Rajesh Kumar",
+        "email": "rajesh.kumar@medshine.com"
+      }
+    },
+    {
+      "id": 37,
+      "patientid": 8,
+      "doctorid": 112,
+      "service": {
+        "id": 7,
+        "title": "Orthopedics",
+        "description": "Medical care for musculoskeletal issues and injuries."
+      },
+      "appointmentDateTime": "2023-08-30 09:00 AM",
+      "doctor": {
+        "doctorid": 112,
+        "name": "Dr. Sameer Kapoor",
+        "email": "sameer.kapoor@medshine.com",
+        "phone": "765-654-3210",
+        "fees": 1900
+      },
+      "patient": {
+        "patientid": 8,
+        "name": "Mihir Patel",
+        "email": "mihir.patel@medshine.com"
+      }
+    },
+    {
+      "id": 38,
+      "patientid": 9,
+      "doctorid": 134,
+      "service": {
+        "id": 15,
+        "title": "Gastroenterology",
+        "description": "Diagnosis and treatment of digestive system disorders."
+      },
+      "appointmentDateTime": "2023-08-31 03:30 PM",
+      "doctor": {
+        "doctorid": 134,
+        "name": "Dr. Neha Sharma",
+        "email": "neha.sharma@medshine.com",
+        "phone": "765-432-1098",
+        "fees": 2600
+      },
+      "patient": {
+        "patientid": 9,
+        "name": "Kirti Gupta",
+        "email": "kirti.gupta@medshine.com"
+      }
+    },
+    {
+      "id": 39,
+      "patientid": 2,
+      "doctorid": 127,
+      "service": {
+        "id": 12,
+        "title": "Acne Treatment",
+        "description": "Management and therapies for acne and related skin conditions."
+      },
+      "appointmentDateTime": "2023-09-01 02:00 PM",
+      "doctor": {
+        "doctorid": 127,
+        "name": "Dr. Anand Khurana",
+        "email": "anand.khurana@medshine.com",
+        "phone": "987-765-4321",
+        "fees": 700
+      },
+      "patient": {
+        "patientid": 2,
+        "name": "Priya Sharma",
+        "email": "priya.sharma@medshine.com"
+      }
+    },
+    {
+      "id": 40,
+      "patientid": 6,
+      "doctorid": 135,
+      "service": {
+        "id": 20,
+        "title": "Food Poisoning Treatment",
+        "description": "Medical care and remedies for food poisoning cases."
+      },
+      "appointmentDateTime": "2023-09-02 10:15 AM",
+      "doctor": {
+        "doctorid": 135,
+        "name": "Dr. Arjun Kapoor",
+        "email": "arjun.kapoor@medshine.com",
+        "phone": "987-876-5432",
+        "fees": 3000
+      },
+      "patient": {
+        "patientid": 6,
+        "name": "Swati Sharma",
+        "email": "swati.sharma@medshine.com"
+      }
+    },
+    {
+      "id": 41,
+      "patientid": 7,
+      "doctorid": 114,
+      "service": {
+        "id": 19,
+        "title": "PCOS Management",
+        "description": "Strategies for managing polycystic ovary syndrome."
+      },
+      "appointmentDateTime": "2023-09-03 11:30 AM",
+      "doctor": {
+        "doctorid": 114,
+        "name": "Dr. Ishita Sharma",
+        "email": "ishita.sharma@medshine.com",
+        "phone": "987-765-4321",
+        "fees": 2300
+      },
+      "patient": {
+        "patientid": 7,
+        "name": "Aakash Singh",
+        "email": "aakash.singh@medshine.com"
+      }
+    },
+    {
+      "id": 42,
+      "patientid": 8,
+      "doctorid": 109,
+      "service": {
+        "id": 11,
+        "title": "Obesity Counseling",
+        "description": "Guidance and support for managing obesity and weight-related concerns."
+      },
+      "appointmentDateTime": "2023-09-04 12:00 PM",
+      "doctor": {
+        "doctorid": 109,
+        "name": "Dr. Shweta Singhania",
+        "email": "shweta.singhania@medshine.com",
+        "phone": "876-210-9876",
+        "fees": 1500
+      },
+      "patient": {
+        "patientid": 8,
+        "name": "Mihir Patel",
+        "email": "mihir.patel@medshine.com"
+      }
+    },
+    {
+      "id": 43,
+      "patientid": 9,
+      "doctorid": 116,
+      "service": {
+        "id": 4,
+        "title": "Cardiology",
+        "description": "Diagnosis and treatment of heart-related conditions."
+      },
+      "appointmentDateTime": "2023-09-05 03:15 PM",
+      "doctor": {
+        "doctorid": 116,
+        "name": "Dr. Natasha Reddy",
+        "email": "natasha.reddy@medshine.com",
+        "phone": "765-432-1098",
+        "fees": 3000
+      },
+      "patient": {
+        "patientid": 9,
+        "name": "Kirti Gupta",
+        "email": "kirti.gupta@medshine.com"
+      }
+    },
+    {
+      "id": 44,
+      "patientid": 10,
+      "doctorid": 102,
+      "service": {
+        "id": 5,
+        "title": "Pediatrics",
+        "description": "Medical care for infants, children, and adolescents."
+      },
+      "appointmentDateTime": "2023-09-06 10:30 AM",
+      "doctor": {
+        "doctorid": 102,
+        "name": "Dr. Neha Joshi",
+        "email": "neha.joshi@medshine.com",
+        "phone": "876-543-2109",
+        "fees": 1100
+      },
+      "patient": {
+        "patientid": 10,
+        "name": "Vivek Sharma",
+        "email": "vivek.sharma@medshine.com"
+      }
+    },
+    {
+      "id": 45,
+      "patientid": 5,
+      "doctorid": 132,
+      "service": {
+        "id": 14,
+        "title": "Asthma Management",
+        "description": "Therapies and care plans for managing asthma symptoms."
+      },
+      "appointmentDateTime": "2023-09-07 09:15 AM",
+      "doctor": {
+        "doctorid": 132,
+        "name": "Dr. Akanksha Gupta",
+        "email": "akanksha.gupta@medshine.com",
+        "phone": "987-765-4321",
+        "fees": 1000
+      },
+      "patient": {
+        "patientid": 5,
+        "name": "Rajesh Kumar",
+        "email": "rajesh.kumar@medshine.com"
+      }
+    },
+    {
+      "id": 46,
+      "patientid": 6,
+      "doctorid": 108,
+      "service": {
+        "id": 12,
+        "title": "Acne Treatment",
+        "description": "Medical treatment for acne and related skin conditions."
+      },
+      "appointmentDateTime": "2023-09-08 04:00 PM",
+      "doctor": {
+        "doctorid": 108,
+        "name": "Dr. Rohan Verma",
+        "email": "rohan.verma@medshine.com",
+        "phone": "987-765-4321",
+        "fees": 1300
+      },
+      "patient": {
+        "patientid": 6,
+        "name": "Swati Sharma",
+        "email": "swati.sharma@medshine.com"
+      }
+    },
+    {
+      "id": 47,
+      "patientid": 7,
+      "doctorid": 124,
+      "service": {
+        "id": 17,
+        "title": "Insomnia Treatment",
+        "description": "Therapies and remedies for managing insomnia and sleep disorders."
+      },
+      "appointmentDateTime": "2023-09-09 11:30 AM",
+      "doctor": {
+        "doctorid": 124,
+        "name": "Dr. Rajat Kapoor",
+        "email": "rajat.kapoor@medshine.com",
+        "phone": "765-654-3210",
+        "fees": 3140
+      },
+      "patient": {
+        "patientid": 7,
+        "name": "Aakash Singh",
+        "email": "aakash.singh@medshine.com"
+      }
+    },
+    {
+      "id": 48,
+      "patientid": 8,
+      "doctorid": 119,
+      "service": {
+        "id": 20,
+        "title": "Food Poisoning Treatment",
+        "description": "Medical care for food poisoning and related digestive issues."
+      },
+      "appointmentDateTime": "2023-09-10 12:00 PM",
+      "doctor": {
+        "doctorid": 119,
+        "name": "Dr. Aditi Verma",
+        "email": "aditi.verma@medshine.com",
+        "phone": "876-543-2109",
+        "fees": 5000
+      },
+      "patient": {
+        "patientid": 8,
+        "name": "Mihir Patel",
+        "email": "mihir.patel@medshine.com"
+      }
+    },
+    {
+      "id": 49,
+      "patientid": 9,
+      "doctorid": 120,
+      "service": {
+        "id": 8,
+        "title": "Dermatology",
+        "description": "Skin-related conditions and treatments."
+      },
+      "appointmentDateTime": "2023-09-11 03:15 PM",
+      "doctor": {
+        "doctorid": 120,
+        "name": "Dr. Alok Kumar",
+        "email": "alok.kumar@medshine.com",
+        "phone": "987-765-4321",
+        "fees": 1000
+      },
+      "patient": {
+        "patientid": 9,
+        "name": "Kirti Gupta",
+        "email": "kirti.gupta@medshine.com"
+      }
+    },
+    {
+      "id": 50,
+      "patientid": 10,
+      "doctorid": 135,
+      "service": {
+        "id": 15,
+        "title": "Gastroenterology",
+        "description": "Diagnosis and treatment of digestive system disorders."
+      },
+      "appointmentDateTime": "2023-09-12 10:30 AM",
+      "doctor": {
+        "doctorid": 135,
+        "name": "Dr. Arjun Kapoor",
+        "email": "arjun.kapoor@medshine.com",
+        "phone": "987-876-5432",
+        "fees": 3000
+      },
+      "patient": {
+        "patientid": 10,
+        "name": "Vivek Sharma",
+        "email": "vivek.sharma@medshine.com"
+      }
+    }
+
+],
 
 "services":[
   {
@@ -778,228 +1930,10 @@
     "title": "Food Poisoning Treatment",
     "description": "Medical care for foodborne illnesses."
   }
-],
-"appointments": [
-  {
-    "id": 1,
-    "patientid": 1,
-    "doctorid": 101,
-    "service": {
-      "id": 1,
-      "title": "General Health Checkup",
-      "description": "Comprehensive health assessments for overall well-being."
-    },
-    "appointmentDateTime": "2023-07-25 09:30 AM"
-  },
-  {
-    "id": 2,
-    "patientid": 2,
-    "doctorid": 105,
-    "service": {
-      "id": 8,
-      "title": "Dermatology",
-      "description": "Skin-related conditions and treatments."
-    },
-    "appointmentDateTime": "2023-07-26 11:00 AM"
-  },
-  {
-    "id": 3,
-    "patientid": 3,
-    "doctorid": 130,
-    "service": {
-      "id": 9,
-      "title": "Mental Health Counseling",
-      "description": "Support and therapy for emotional well-being."
-    },
-    "appointmentDateTime": "2023-07-27 11:15 AM"
-  },
-  {
-    "id": 4,
-    "patientid": 1,
-    "doctorid": 102,
-    "service": {
-      "id": 19,
-      "title": "PCOS Management",
-      "description": "Strategies for managing polycystic ovary syndrome."
-    },
-    "appointmentDateTime": "2023-07-28 02:00 PM"
-  },
-  {
-    "id": 5,
-    "patientid": 4,
-    "doctorid": 110,
-    "service": {
-      "id": 13,
-      "title": "Sports Medicine",
-      "description": "Care and rehabilitation for sports-related injuries."
-    },
-    "appointmentDateTime": "2023-07-29 03:30 PM"
-  },
-  {
-    "id": 6,
-    "patientid": 5,
-    "doctorid": 106,
-    "service": {
-      "id": 3,
-      "title": "Diabetes Management",
-      "description": "Monitoring and control of diabetes through personalized plans."
-    },
-    "appointmentDateTime": "2023-08-01 10:45 AM"
-  },
-  {
-    "id": 7,
-    "patientid": 2,
-    "doctorid": 103,
-    "service": {
-      "id": 7,
-      "title": "Orthopedics",
-      "description": "Diagnosis and treatment of musculoskeletal issues."
-    },
-    "appointmentDateTime": "2023-08-02 02:30 PM"
-  },
-  {
-    "id": 8,
-    "patientid": 6,
-    "doctorid": 108,
-    "service": {
-      "id": 17,
-      "title": "Insomnia Treatment",
-      "description": "Solutions for managing sleep disorders."
-    },
-    "appointmentDateTime": "2023-08-03 09:00 AM"
-  },
-  {
-    "id": 9,
-    "patientid": 3,
-    "doctorid": 104,
-    "service": {
-      "id": 15,
-      "title": "Gastroenterology",
-      "description": "Diagnosis and treatment of digestive system disorders."
-    },
-    "appointmentDateTime": "2023-08-04 11:15 AM"
-  },
-  {
-    "id": 10,
-    "patientid": 7,
-    "doctorid": 111,
-    "service": {
-      "id": 12,
-      "title": "Acne Treatment",
-      "description": "Solutions for managing acne and skin blemishes."
-    },
-    "appointmentDateTime": "2023-08-05 03:45 PM"
-  },
-  {
-    "id": 11,
-    "patientid": 8,
-    "doctorid": 113,
-    "service": {
-      "id": 14,
-      "title": "Asthma Management",
-      "description": "Treatment plans to manage asthma symptoms."
-    },
-    "appointmentDateTime": "2023-08-06 12:30 PM"
-  },
-  {
-    "id": 12,
-    "patientid": 9,
-    "doctorid": 107,
-    "service": {
-      "id": 10,
-      "title": "Hypertension Management",
-      "description": "Control and monitoring of high blood pressure."
-    },
-    "appointmentDateTime": "2023-08-07 09:45 AM"
-  },
-  {
-    "id": 13,
-    "patientid": 10,
-    "doctorid": 102,
-    "service": {
-      "id": 6,
-      "title": "Gynecology",
-      "description": "Women's reproductive health and wellness."
-    },
-    "appointmentDateTime": "2023-08-08 03:15 PM"
-  },
-  {
-    "id": 14,
-    "patientid": 7,
-    "doctorid": 105,
-    "service": {
-      "id": 5,
-      "title": "Pediatrics",
-      "description": "Specialized care for infants, children, and adolescents."
-    },
-    "appointmentDateTime": "2023-08-09 11:00 AM"
-  },
-  {
-    "id": 15,
-    "patientid": 8,
-    "doctorid": 109,
-    "service": {
-      "id": 18,
-      "title": "Anemia Management",
-      "description": "Therapies to address low red blood cell count."
-    },
-    "appointmentDateTime": "2023-08-10 02:45 PM"
-  },
-  {
-    "id": 16,
-    "patientid": 4,
-    "doctorid": 111,
-    "service": {
-      "id": 7,
-      "title": "Orthopedics",
-      "description": "Diagnosis and treatment of musculoskeletal issues."
-    },
-    "appointmentDateTime": "2023-08-11 10:30 AM"
-  },
-  {
-    "id": 17,
-    "patientid": 3,
-    "doctorid": 104,
-    "service": {
-      "id": 1,
-      "title": "General Health Checkup",
-      "description": "Comprehensive health assessments for overall well-being."
-    },
-    "appointmentDateTime": "2023-08-12 04:00 PM"
-  },
-  {
-    "id": 18,
-    "patientid": 1,
-    "doctorid": 108,
-    "service": {
-      "id": 11,
-      "title": "Obesity Counseling",
-      "description": "Guidance for weight management and healthy lifestyle."
-    },
-    "appointmentDateTime": "2023-08-13 11:45 AM"
-  },
-  {
-    "id": 19,
-    "patientid": 2,
-    "doctorid": 112,
-    "service": {
-      "id": 15,
-      "title": "Gastroenterology",
-      "description": "Diagnosis and treatment of digestive system disorders."
-    },
-    "appointmentDateTime": "2023-08-14 03:30 PM"
-  },
-  {
-    "id": 20,
-    "patientid": 7,
-    "doctorid": 106,
-    "service": {
-      "id": 3,
-      "title": "Diabetes Management",
-      "description": "Monitoring and control of diabetes through personalized plans."
-    },
-    "appointmentDateTime": "2023-08-15 09:15 AM"
-  }
 ]
 
 }
+
+
+
+
